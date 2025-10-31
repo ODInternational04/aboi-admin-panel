@@ -1,7 +1,7 @@
 const normaliseBaseUrl = (url: string) => url.replace(/\/$/, '');
 
 const API_BASE_URL = normaliseBaseUrl(
-  import.meta.env.VITE_API_BASE_URL ?? 'http://localhost:3001/api'
+  import.meta.env.VITE_API_BASE_URL ?? 'https://aboi-admin-panel-qpza54uia-odinternational04s-projects.vercel.app/api'
 );
 
 const TOKEN_STORAGE_KEY = 'aboi_admin_token';
